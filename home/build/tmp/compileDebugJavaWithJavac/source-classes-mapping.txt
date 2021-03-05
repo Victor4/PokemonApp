@@ -1,0 +1,10 @@
+com/victor/feature/databinding/PokemonItemBinding.java
+ com.victor.feature.databinding.PokemonItemBinding
+com/victor/feature/databinding/LoadStateFooterViewItemBinding.java
+ com.victor.feature.databinding.LoadStateFooterViewItemBinding
+com/victor/feature/BuildConfig.java
+ com.victor.feature.BuildConfig
+com/victor/feature/databinding/TypeItemBinding.java
+ com.victor.feature.databinding.TypeItemBinding
+com/victor/feature/databinding/ActivityHomeBinding.java
+ com.victor.feature.databinding.ActivityHomeBinding

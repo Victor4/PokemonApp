@@ -1,0 +1,2 @@
+com/victor/core/BuildConfig.java
+ com.victor.core.BuildConfig

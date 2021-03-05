@@ -1,0 +1,25 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.victor.feature" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->/home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="30" />
+7-->/home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml
+8
+9    <application>
+9-->/home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:5:5-10:19
+10        <activity android:name="com.victor.feature.activities.HomeActivity" />
+10-->/home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:6:9-70
+10-->/home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:6:19-58
+11
+12        <meta-data
+12-->/home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:7:9-9:57
+13            android:name="preloaded_fonts"
+13-->/home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:8:13-43
+14            android:resource="@array/preloaded_fonts" />
+14-->/home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:9:13-54
+15    </application>
+16
+17</manifest>

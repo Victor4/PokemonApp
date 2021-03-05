@@ -1,0 +1,4 @@
+include ':home'
+include ':coredata'
+include ':app'
+rootProject.name = "PokemonApp"

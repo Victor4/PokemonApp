@@ -1,0 +1,72 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion configs.targetSdk
+    buildToolsVersion configs.buildToolVersion
+    defaultConfig {
+        applicationId "com.victor.pokemonapp"
+        minSdkVersion configs.minSdk
+        targetSdkVersion configs.targetSdk
+        versionCode 1
+        versionName "1.0"
+
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    viewBinding {
+        enabled = true
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+}
+
+dependencies {
+    implementation project(':home')
+    implementation project(':coredata')
+
+    implementation depend.androidX.androidCore.kotlinStdLib
+    implementation depend.androidX.androidCore.coreKtx
+    implementation depend.androidX.androidCore.appCompat
+    implementation depend.androidX.androidCore.constranintLayout
+    implementation depend.androidX.androidDesign.androidMaterial
+
+    implementation depend.androidX.coroutines
+
+    implementation depend.androidX.lifecycle.viewModel
+    implementation depend.androidX.lifecycle.liveData
+    implementation depend.androidX.lifecycle.runTime
+    implementation depend.androidX.lifecycle.comomJava8
+    implementation depend.androidX.lifecycle.service
+    implementation depend.androidX.lifecycle.process
+    implementation depend.androidX.lifecycle.reactivestreams
+
+    implementation depend.retrofit.retrofit2
+    implementation depend.retrofit.convertGson
+    implementation depend.koin.koinCore
+    implementation depend.image.picasso
+
+    testImplementation depend.test.junit
+    androidTestImplementation depend.test.androidXJunit
+    androidTestImplementation depend.test.espressoCore
+}

@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
+drawable ic_bulbasaur
+drawable ic_snorlax
+font alfa_slab_one
+font arbutus
+id backgroundCardView
+id error_msg
+id namePokemonTextView
+id pokemonCardView
+id pokemonImageView
+id pokemonRecyclerView
+id progress_bar
+id retry_button
+id typeCardView
+id typeOneLayout
+id typeTextView
+id typeTwoLayout
+layout activity_home
+layout load_state_footer_view_item
+layout pokemon_item
+layout type_item
+string loading
+string retry

@@ -2,8 +2,7 @@
 App to list pokemons
 
 
-Layout from figma
-
+Layout baseado no figma:
 https://dribbble.com/shots/6540871-Pokedex-App/attachments/6540871-Pokedex-App?mode=media
 
 Tecnologias Utilizadas:

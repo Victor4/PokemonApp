@@ -41,6 +41,7 @@ class HomeActivity : AppCompatActivity() {
                 .distinctUntilChangedBy { it.refresh }
                 // Only react to cases where Remote REFRESH completes i.e., NotLoading.
                 .collect { binding.pokemonRecyclerView.scrollToPosition(0) }
+
         }
         initAdapter()
         search()

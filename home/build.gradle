@@ -67,7 +67,7 @@ dependencies {
     implementation depend.koin.koinViewModel
 
     implementation depend.paging.pagingRuntime
-    implementation depend.picasso
+    implementation depend.image.picasso
 
     api depend.room.roomRuntime
     kapt depend.room.roomCompiler

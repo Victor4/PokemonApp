@@ -26,15 +26,13 @@ class HomeActivity : AppCompatActivity() {
     private val adapter = PokemonsAdapter()
 
     val homeViewModel: HomeViewModel by viewModel()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
-
         binding.retryButton.setOnClickListener { adapter.retry() }
-
+        val nome = ""
         lifecycleScope.launch {
             adapter.loadStateFlow
                 // Only emit when REFRESH LoadState for RemoteMediator changes.

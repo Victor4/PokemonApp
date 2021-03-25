@@ -1,0 +1,2 @@
+[90mC:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\kotlin\com\victor\feature\activities\[0mHomeActivity.kt[90m:[0m45[90m:1:[0m Unexpected blank line(s) before "}"
+[90mC:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\kotlin\com\victor\feature\activities\[0mHomeActivity.kt[90m:[0m46[90m:1:[0m Needless blank line(s)

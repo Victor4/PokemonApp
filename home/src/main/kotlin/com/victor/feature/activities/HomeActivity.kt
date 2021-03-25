@@ -21,6 +21,7 @@ import org.koin.android.viewmodel.ext.android.viewModel
 @ExperimentalCoroutinesApi
 class HomeActivity : AppCompatActivity() {
 
+
     private lateinit var binding: ActivityHomeBinding
     private var searchJob: Job? = null
     private val adapter = PokemonsAdapter()

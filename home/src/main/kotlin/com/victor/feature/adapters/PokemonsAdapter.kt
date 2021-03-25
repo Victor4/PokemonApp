@@ -23,7 +23,7 @@ import com.victor.core.data.PokemonData
 
 class PokemonsAdapter : PagingDataAdapter<PokemonData, PokemonViewHolder>(REPO_COMPARATOR) {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PokemonViewHolder{
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PokemonViewHolder {
         return PokemonViewHolder.create(parent)
     }
 
@@ -36,10 +36,10 @@ class PokemonsAdapter : PagingDataAdapter<PokemonData, PokemonViewHolder>(REPO_C
     companion object {
         private val REPO_COMPARATOR = object : DiffUtil.ItemCallback<PokemonData>() {
             override fun areItemsTheSame(oldItem: PokemonData, newItem: PokemonData): Boolean =
-                    oldItem.name == newItem.name
+                oldItem.name == newItem.name
 
             override fun areContentsTheSame(oldItem: PokemonData, newItem: PokemonData): Boolean =
-                    oldItem == newItem
+                oldItem == newItem
         }
     }
 }

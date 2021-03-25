@@ -19,7 +19,7 @@ ext.versions = [
         kotlinxCoroutines        : '1.3.9',
         kotlinVersion            : '1.4.21',
         pagingVersion            : '3.0.0-alpha08',
-        picassoVersion                  : '2.8',
+        picassoVersion           : '2.8',
         retrofit                 : '2.9.0',
         roomKotlin               : '2.2.6'
 ]
@@ -64,9 +64,6 @@ ext.depend = [
                         'reactivestreams':
                                 "androidx.lifecycle:lifecycle-reactivestreams-ktx:${versions.androidxLifecycle}",
                 ],
-        ],
-        'image'   : [
-                'picasso': "com.squareup.picasso:picasso:${versions.picasso}"
         ],
         'retrofit': [
                 'retrofit2'         : "com.squareup.retrofit2:retrofit:${versions.retrofit}",

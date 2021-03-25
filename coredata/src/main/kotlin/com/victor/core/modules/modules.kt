@@ -29,7 +29,6 @@ val PokemonNetworkModule = module {
         return GsonBuilder().setFieldNamingPolicy(FieldNamingPolicy.IDENTITY).create()
     }
 
-
     fun provideRetrofit(factory: Gson, client: OkHttpClient): Retrofit {
         return Retrofit.Builder()
             .baseUrl("https://pokeapi.co/api/v2/")
@@ -42,7 +41,6 @@ val PokemonNetworkModule = module {
     single { provideHttpClient() }
     single { provideGson() }
     single { provideRetrofit(get(), get()) }
-
 }
 
 val PokemonRepositoryModule = module {

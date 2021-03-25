@@ -32,10 +32,6 @@ android {
         jvmTarget = '1.8'
     }
 
-    viewBinding {
-        enabled = true
-    }
-
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
@@ -64,7 +60,6 @@ dependencies {
     implementation depend.retrofit.retrofit2
     implementation depend.retrofit.convertGson
     implementation depend.koin.koinCore
-    implementation depend.image.picasso
 
     testImplementation depend.test.junit
     androidTestImplementation depend.test.androidXJunit

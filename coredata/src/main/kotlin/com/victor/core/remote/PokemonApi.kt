@@ -17,11 +17,11 @@ interface PokemonApi {
 
     @GET("pokemon/{id}")
     suspend fun getPokemonsBy(
-        @Path(value = "id") id : String
+        @Path(value = "id") id: String
     ): PokemonData
 
     @GET("pokemon-species/{id}")
     suspend fun getPokemonsColorBy(
-        @Path(value = "id") id : String
+        @Path(value = "id") id: String
     ): PokemonColor
 }

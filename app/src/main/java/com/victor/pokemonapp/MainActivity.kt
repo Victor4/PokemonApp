@@ -1,8 +1,8 @@
 package com.victor.pokemonapp
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.victor.core.modules.PokemonApiModule
 import com.victor.core.modules.PokemonNetworkModule
 import com.victor.core.modules.PokemonRepositoryModule
@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        startKoin{
+        startKoin {
             modules(homeViewModelModule)
             modules(PokemonApiModule)
             modules(PokemonNetworkModule)

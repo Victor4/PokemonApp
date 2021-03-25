@@ -1,17 +1,14 @@
 package com.victor.feature.adapters
 
 import android.annotation.SuppressLint
-import android.content.Context
-import android.content.res.ColorStateList
 import android.graphics.Color
-import android.graphics.Color.green
-import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.cardview.widget.CardView
+import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import com.victor.core.data.PokemonData
 import com.victor.feature.R
@@ -29,7 +26,6 @@ class PokemonViewHolder(view: View) : RecyclerView.ViewHolder(view) {
             val resources = itemView.resources
 
             namePokemon.text = resources.getString(R.string.loading)
-
         } else {
             showPokemonData(pokemonData)
         }
@@ -42,11 +38,11 @@ class PokemonViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val typeOneCardView: CardView = typeOne.findViewById(R.id.typeCardView)
         val typeTwoCardView: CardView = typeTwo.findViewById(R.id.typeCardView)
 
-        if(pokemonData.color.equals("white")){
+        if (pokemonData.color.equals("white")) {
             namePokemon.setTextColor(Color.parseColor("#000000"))
             typeOneTextView.setTextColor(Color.parseColor("#000000"))
             typeTwoTextView.setTextColor(Color.parseColor("#000000"))
-        }else{
+        } else {
             namePokemon.setTextColor(Color.parseColor("#FFFFFF"))
             typeOneTextView.setTextColor(Color.parseColor("#FFFFFF"))
             typeTwoTextView.setTextColor(Color.parseColor("#FFFFFF"))

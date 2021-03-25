@@ -9,4 +9,3 @@ data class PokemonColor(
 data class Color(
     @SerializedName("name") val nameColor: String,
 )
-

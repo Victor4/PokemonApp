@@ -31,7 +31,7 @@ class PokemonPagingSource(
     }
 
     private suspend fun loadImageTypeFrom(repos: List<PokemonReference>): MutableList<PokemonData> {
-        val pokemonData : MutableList<PokemonData> = mutableListOf()
+        val pokemonData: MutableList<PokemonData> = mutableListOf()
         repos.forEach { pokemon ->
             pokemonData.add(pokemonApi.getPokemonsBy(extractIdFrom(pokemon.url)))
         }
@@ -41,12 +41,12 @@ class PokemonPagingSource(
         return pokemonData
     }
 
-    fun extractOffsetFrom(url : String): Int {
+    fun extractOffsetFrom(url: String): Int {
         val regexOffsetAndLimit = "[0-9]+".toRegex()
         return regexOffsetAndLimit.find(url, 33)?.value!!.toInt()
     }
 
-    fun extractIdFrom(url : String): String {
+    fun extractIdFrom(url: String): String {
         val regexOffsetAndLimit = "[0-9]+".toRegex()
         return regexOffsetAndLimit.find(url, 33)?.value!!
     }

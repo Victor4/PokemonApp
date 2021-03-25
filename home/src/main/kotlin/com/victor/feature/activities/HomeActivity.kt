@@ -1,8 +1,8 @@
 package com.victor.feature.activities
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import androidx.paging.LoadState
@@ -46,7 +46,6 @@ class HomeActivity : AppCompatActivity() {
         search()
     }
 
-
     private fun initAdapter() {
         binding.pokemonRecyclerView.adapter = adapter.withLoadStateHeaderAndFooter(
             header = PokemonLoadStateAdapter { adapter.retry() },
@@ -81,6 +80,4 @@ class HomeActivity : AppCompatActivity() {
             }
         }
     }
-
-
 }

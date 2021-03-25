@@ -1,37 +1,37 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:2:1-12:12
-INJECTED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:2:1-12:12
-INJECTED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:2:1-12:12
+ADDED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml:2:1-12:12
 	package
-		ADDED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:3:5-33
-		INJECTED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml
-		INJECTED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml
+		ADDED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:5:5-10:19
+ADDED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml:5:5-10:19
 activity#com.victor.feature.activities.HomeActivity
-ADDED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:6:9-70
+ADDED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml:6:9-70
 	android:name
-		ADDED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:6:19-58
+		ADDED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml:6:19-58
 meta-data#preloaded_fonts
-ADDED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:7:9-9:57
+ADDED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml:7:9-9:57
 	android:resource
-		ADDED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:9:13-54
+		ADDED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml:9:13-54
 	android:name
-		ADDED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml:8:13-43
+		ADDED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml:8:13-43
 uses-sdk
-INJECTED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml
-INJECTED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml
-INJECTED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml
-INJECTED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml
+INJECTED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml
+INJECTED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml
+INJECTED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml
+INJECTED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml
-		ADDED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml
-		INJECTED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml
+		ADDED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml
-		ADDED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml
-		INJECTED from /home/victor/Documentos/gitprojects/PokemonApp/home/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml
+		ADDED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\55519\Documents\GitHub\PokemonApp\home\src\main\AndroidManifest.xml

@@ -15,6 +15,7 @@ android {
 
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
     }
 
     buildTypes {
@@ -30,10 +31,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
-    }
-
-    viewBinding {
-        enabled = true
     }
 
     sourceSets {
@@ -64,7 +61,6 @@ dependencies {
     implementation depend.retrofit.retrofit2
     implementation depend.retrofit.convertGson
     implementation depend.koin.koinCore
-    implementation depend.image.picasso
 
     testImplementation depend.test.junit
     androidTestImplementation depend.test.androidXJunit

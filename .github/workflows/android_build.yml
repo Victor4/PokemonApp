@@ -3,6 +3,47 @@ name: Android Build
 on: pull_request
 
 jobs:
+
+  codeQuality:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Set Up JDK
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+
+      - name: Detekt
+        run: ./gradlew detekt
+
+      - name: Lint
+        run: ./gradlew lintDebug
+
+      - name: KtlintFormat
+        run: ./gradlew ktlintFormat
+
+      - name: KtlintCheck
+        run: ./gradlew ktlintCheck
+
+
+  Tests:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Set Up JDK
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.8
+
+      - name: Run Tests
+        run: ./gradlew test
+
   build:
 
     runs-on: ubuntu-latest
@@ -13,11 +54,10 @@ jobs:
       - name: Set Up JDK
         uses: actions/setup-java@v1
         with:
-          - java-version: 1.8
-
-      - name: Run Tests
-        run: ./gradlew test
+          java-version: 1.8
 
       - name: Build Project
         run: ./gradlew assemble
+
+
 

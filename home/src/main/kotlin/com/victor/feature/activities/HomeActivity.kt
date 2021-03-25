@@ -26,7 +26,6 @@ class HomeActivity : AppCompatActivity() {
     private val adapter = PokemonsAdapter()
 
     val homeViewModel: HomeViewModel by viewModel()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeBinding.inflate(layoutInflater)

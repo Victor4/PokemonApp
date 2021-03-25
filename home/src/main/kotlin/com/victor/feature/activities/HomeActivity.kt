@@ -32,7 +32,7 @@ class HomeActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
         binding.retryButton.setOnClickListener { adapter.retry() }
-
+        val nome = ""
         lifecycleScope.launch {
             adapter.loadStateFlow
                 // Only emit when REFRESH LoadState for RemoteMediator changes.
